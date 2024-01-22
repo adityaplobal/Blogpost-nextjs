@@ -262,3 +262,7 @@
   margin-bottom: 30px; /* Adjust the value to the space you want */
   text-align: center;
 }
+
+.myImg{
+  border-radius: 10px;
+}
