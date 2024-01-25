@@ -1,6 +1,6 @@
 import Head from 'next/head'
 //import Script from 'next/script'
-import Image from 'next/image'
+//import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
 // import styles from '@/styles/style.css' global css cannot be imported here do it in app.js
@@ -52,13 +52,14 @@ export default function Home() {
           </div>
         </div>
 
-        <Image
+        {/* <Image
             className={styles.myImg}
             src="/home.jpg"
             alt=""
 
             width={180}
-            height={180} /> 
+            height={180} />  */}
+          <img  className={styles.myImg} src ="/home.jpg" width={180} height={180} alt="hunting coder"/>
         <div className={styles.center}>
           <span className='mySpan'>Hunting Coders</span>
         </div>
